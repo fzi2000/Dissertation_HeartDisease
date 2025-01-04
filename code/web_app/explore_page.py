@@ -1,15 +1,14 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-# import seaborn as sns
 
-# Load dataset
+# Load dataset from the correct path
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Heart Disease Dataset.csv")  # Ensure the file exists
+    df = pd.read_excel("data/Heart Disease Dataset 4.xlsx")  # Corrected file path
     return df
 
 df = load_data()
+
 
 # Define the function properly
 def show_explore_page():

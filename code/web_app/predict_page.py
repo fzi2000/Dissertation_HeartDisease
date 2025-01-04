@@ -1,11 +1,9 @@
 import streamlit as st
 import numpy as np
 import joblib
-
 # Load the trained model
 def load_model():
-    return joblib.load("fcnn_model.pkl")  # Ensure this file exists
-
+    return joblib.load("model/fcnn_model.pkl")  # Ensure this file exists
 model = load_model()
 
 # Define feature names
