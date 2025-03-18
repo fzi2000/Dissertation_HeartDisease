@@ -21,7 +21,7 @@ This project uses machine learning models to predict the presence of cardiovascu
 ---
 
 ## Dataset
-- The dataset sourced from UCI contains clinical attributes such as:
+- The dataset sourced from Framingham dataset contains clinical attributes such as:
    - age: Age of the patient.
    - male: Gender (1 = male, 0 = female).
    - education: Level of education.
