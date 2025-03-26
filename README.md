@@ -49,6 +49,9 @@ This project uses machine learning models to predict the presence of cardiovascu
 - **Matplotlib/Seaborn** for data visualization.
 
 ---
+Due to deep learning experiments being run across different environments, two Git accounts
+were used during development, though all contributions originate from the same author. 
+
 
 ##  Installation
 1. Download the zipped file
@@ -63,7 +66,5 @@ This project uses machine learning models to predict the presence of cardiovascu
    ```bash
    git clone https://github.com/your-username/heart-disease-prediction.git
    cd heart-disease-prediction
-
-
 
    
